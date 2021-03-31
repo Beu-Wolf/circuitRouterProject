@@ -1,6 +1,6 @@
 # Circuit Router (October - November 2018)
 
-Reuse and improvement of a previous Berkley Circuit Solver project in C language together with my [loyal project comrade](http://github.com/Beu-Wolf).
+Reuse and improvement of a previous Berkley Circuit Solver project in C language together with my [loyal project comrade](http://github.com/afonsocrg).
 The project was developed in 3 stages:
  * **CircuitRouter-SimpleShell:** A simple shell (as the name suggests) that accepts commands from the stdin. Each valid command generates a child process that executes a sequential circuit router (CircuitRouter-SeqSolver). On the exit command, the shell waits for every launched process to finish and displays every child exit status and respective PID. It is possible to specify the maximum number of child processes running simultaneously (with a flag)
 
